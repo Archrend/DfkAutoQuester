@@ -1,0 +1,500 @@
+[
+  {
+    "AccountName": "Account Name",
+    "PrivateKey": "Private Key",
+    "GardeningSettings": {
+      "Enabled": true,
+      "ConvertGardeningJewelToGas": false,
+      "PoolHeroIds": {}
+    },
+    "MiningSettings": {
+      "Enabled": true,
+      "JewelEnabled": true,
+      "LeaderBeforeTQ": false
+    },
+    "ForagingSettings": {
+      "Enabled": true
+    },
+    "FishingSettings": {
+      "Enabled": true
+    },
+    "TrainingSettings": {
+      "Enabled": true,
+      "MinGardeningProfSkill": 10,
+      "MinMiningProfSkill": 10,
+      "MinForagingProfSkill": 10,
+      "MinFishingProfSkill": 10,
+      "MinStatRequirement": 15
+    },
+    "LevelingBaseSettings": {
+      "Enabled": false,
+      "DisabledHeroIds": []
+    },
+    "TavernSettings": {
+      "Enabled": false,
+      "SellingHeroIds": {
+        "1223456": 19000
+      }
+    },
+    "OtherAccountSettings": {
+      "ConvertForGas": false,
+      "MinimumJewelForAutoSell": 0.0,
+      "RPC": "https://rpc.ankr.com/harmony",
+      "GWEI": 35,
+      "DFKGWEI": 1.5
+    },
+    "Inventory": [
+      {
+        "TokenName": "DFKRGWD",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKRCKRT",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKRDLF",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKDRKWD",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKAMBRTFY",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKGLDVN",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSWFTHSL",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKBLOATER",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKIRONSCALE",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLANTERNEYE",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKREDGILL",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSILVERFIN",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSAILFISH",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSHIMMERSKIN",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKBLUESTEM",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSPIDRFRT",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKMILKWEED",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKGREGG",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKBLUEEGG",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKGREENEGG",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKYELOWEGG",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLMGHTCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLSWFTCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLFRTICR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLINSCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLFINCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLVGRCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLWITCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKLFRTUCR",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKGOLD",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKTEARS",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSHVAS",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKMOKSHA",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "JEWEL",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "ONE",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKFROSTDRUM",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKKNAPROOT",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSHAGGYCAPS",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSKUNKSHADE",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKFROSTBLOATER",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKSPECKLETAIL",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKKINGPINCER",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "DFKTHREEEYEDEEL",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "CRYSTAL",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "SDGAS",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      },
+      {
+        "TokenName": "CVGAS",
+        "AutoSell": false,
+        "AutoTransfer": "",
+        "MinQuantityLeft": 0,
+        "MinSellAmount": 1
+      }
+    ],
+    "InventoryCV": [],
+    "LevelingSettings": [
+      {
+        "Enabled": true,
+        "Class": "KNIGHT",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,END,STR"
+      },
+      {
+        "Enabled": true,
+        "Class": "WARRIOR",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,DEX,STR"
+      },
+      {
+        "Enabled": true,
+        "Class": "ARCHER",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "DEX,AGI,LCK"
+      },
+      {
+        "Enabled": true,
+        "Class": "THIEF",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "AGI,LCK,DEX"
+      },
+      {
+        "Enabled": true,
+        "Class": "MONK",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,DEX,STR"
+      },
+      {
+        "Enabled": true,
+        "Class": "PIRATE",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "STR,LCK,DEX"
+      },
+      {
+        "Enabled": true,
+        "Class": "PRIEST",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "WIS,INT,AGI"
+      },
+      {
+        "Enabled": true,
+        "Class": "WIZARD",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "INT,WIS,LCK"
+      },
+      {
+        "Enabled": true,
+        "Class": "SEER",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "WIS,INT,LCK"
+      },
+      {
+        "Enabled": true,
+        "Class": "BERSERKER",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "STR,VIT,LCK"
+      },
+      {
+        "Enabled": true,
+        "Class": "PALADIN",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,END,WIS"
+      },
+      {
+        "Enabled": true,
+        "Class": "DARKKNIGHT",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,INT,STR"
+      },
+      {
+        "Enabled": true,
+        "Class": "NINJA",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "AGI,LCK,DEX"
+      },
+      {
+        "Enabled": true,
+        "Class": "SUMMONER",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "INT,WIS,LCK"
+      },
+      {
+        "Enabled": true,
+        "Class": "SHAPESHIFTER",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "AGI,LCK,DEX"
+      },
+      {
+        "Enabled": true,
+        "Class": "DRAGOON",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,DEX,STR"
+      },
+      {
+        "Enabled": true,
+        "Class": "SAGE",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "WIS,INT,AGI"
+      },
+      {
+        "Enabled": true,
+        "Class": "DREADKNIGHT",
+        "ProfessionLevelingEnabled": true,
+        "CombatLevelingStatEnabled": false,
+        "CombatLevelingStats": "VIT,LCK,STR"
+      }
+    ]
+  }
+]

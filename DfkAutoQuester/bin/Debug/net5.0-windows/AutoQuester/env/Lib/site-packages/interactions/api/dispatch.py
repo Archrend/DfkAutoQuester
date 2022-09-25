@@ -1,0 +1,68 @@
+from asyncio import AbstractEventLoop, get_event_loop
+from logging import Logger
+from typing import Callable, Coroutine, Dict, List, Optional
+
+from ..base import get_logger
+
+__all__ = ("Listener",)
+
+log: Logger = get_logger("dispatch")
+
+
+class Listener:
+    """
+    A class representing how events become dispatched and listened to.
+
+    :ivar AbstractEventLoop loop: The coroutine event loop established on.
+    :ivar dict events: A list of events being dispatched.
+    """
+
+    __slots__ = ("loop", "events")
+
+    def __init__(self) -> None:
+        self.loop: AbstractEventLoop = get_event_loop()
+        self.events: Dict[str, List[Callable[..., Coroutine]]] = {}
+
+    def dispatch(self, __name: str, *args, **kwargs) -> None:
+        r"""
+        Dispatches an event given out by the gateway.
+
+        :param __name: The name of the event to dispatch.
+        :type __name: str
+        :param *args: Multiple arguments of the coroutine.
+        :type *args: list[Any]
+        :param **kwargs: Keyword-only arguments of the coroutine.
+        :type **kwargs: dict
+        """
+        for event in self.events.get(__name, []):
+            converters: dict
+            if converters := getattr(event, "_converters", None):
+                _kwargs = kwargs.copy()
+                for key, value in _kwargs.items():
+
+                    if key in converters.keys():
+                        del kwargs[key]
+                        kwargs[converters[key]] = value
+
+            self.loop.create_task(event(*args, **kwargs))
+            log.debug(f"DISPATCH: {event}")
+
+    def register(self, coro: Callable[..., Coroutine], name: Optional[str] = None) -> None:
+        """
+        Registers a given coroutine as an event to be listened to.
+        If the name of the event is not given, it will then be
+        determined by the coroutine's name.
+
+        i.e. : async def on_guild_create -> "ON_GUILD_CREATE" dispatch.
+
+        :param coro: The coroutine to register as an event.
+        :type coro: Callable[..., Coroutine]
+        :param name?: The name to associate the coroutine with. Defaults to None.
+        :type name?: Optional[str]
+        """
+        _name: str = coro.__name__ if name is None else name
+        event = self.events.get(_name, [])
+        event.append(coro)
+
+        self.events[_name] = event
+        log.debug(f"REGISTER: {self.events[_name]}")
